@@ -18,17 +18,20 @@
     <link rel="stylesheet" type="text/css" href="css/homework.css">
     <title>Index</title>
 
-    <header class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class='pl-5'>
             <a href="index.html">
                 <h1 class="px-3 py-2 bg-primary text-light">Latitude</h1>
             </a>
         </div>
-        <button class="btn btn-outline-primary navbar-toggler" data-toggle="collapse" data-target="#the_menu">
-                <i class="fas fa-bars"></i>
-            </button>
+        <button class="navbar-toggler" type="text" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor01"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        </span>
         <div class="navbar-collapse collapse justify-content-end pr-5" id="the_menu">
             <ul class="navbar-nav">
-                <li class="nav-item">
+                <li class="dropdown pull-right">
                     <div class="dropdown-toggle text-primary pt-3" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Plots
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
@@ -47,16 +50,17 @@
                         </ul>
                     </div>
                 </li>
+                </li>
 
                 <li class="nav-item">
-                    <a class="nav-link text-primary" href="comparison.html">Comparison</a>
+                    <a class="nav-link text-primary pl-4" href="comparison.html">Comparison</a>
                 </li>
                 <li class="nav-item text-primary">
                     <a class="nav-link text-primary" href="data.html">Data</a>
                 </li>
             </ul>
         </div>
-    </header>
+    </nav>
 </head>
 
 <body>
